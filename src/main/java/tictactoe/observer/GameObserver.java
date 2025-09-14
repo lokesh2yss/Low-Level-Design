@@ -1,2 +1,7 @@
-package tictactoe.observer;public interface GameObserver {
+package tictactoe.observer;
+
+import tictactoe.entities.Game;
+
+public interface GameObserver {
+    void update(Game game);
 }

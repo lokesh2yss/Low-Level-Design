@@ -4,16 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="" />
+    <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/TicTacToeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/TicTacToeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/TicTacToeSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/TicTacToeSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Scoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/entities/Scoreboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/enums/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/enums/GameStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/enums/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/enums/Symbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/exceptions/InvalidMoveException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/exceptions/InvalidMoveException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/observer/GameObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/observer/GameObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/observer/GameSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/observer/GameSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/state/DrawState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/state/DrawState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/state/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/state/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/state/InProgressState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/state/InProgressState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/state/WinnerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/state/WinnerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/ColumnWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/ColumnWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/DiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/DiagonalWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tictactoe/strategy/WinningStrategy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Merging master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TicTacToeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tictactoe.TicTacToeDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tictactoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TicTacToeDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
