@@ -23,7 +23,7 @@ public class SnakeLadderDemo {
 
         system.addSnakes(snakes);
         system.addLadders(ladders);
-        system.makeMove(player1, 5, 5);
+        system.makeMove(player1, 9, 9);
 
     }
 }

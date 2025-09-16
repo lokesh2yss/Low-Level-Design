@@ -3,10 +3,10 @@ package snake_ladder.entities;
 import snake_ladder.enums.Symbol;
 
 public class Board {
-    int size;
-    Cell[][] board;
-    Snake[] snakes;
-    Ladder[] ladders;
+    private int size;
+    private Cell[][] board;
+    private Snake[] snakes;
+    private Ladder[] ladders;
 
     public Board(int size) {
         this.size = size;
