@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/BloomFilterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/entities/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/enums/HashType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/interfaces/HashStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/strategy/DJB2HashStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/strategy/FNV1aHashStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloom_filter_cs/strategy/HashStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/ParkingLotDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/ParkingTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/entities/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/enums/VehicleSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/BestFitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/FarthestFirstStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/FlatRateFeeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/NearestFirstStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/VehicleBasedFeeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/interfaces/FeeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/strategy/interfaces/ParkingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +67,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BloomFilterDemo">
+  <component name="RunManager" selected="Application.ParkingLotDemo">
     <configuration name="BloomFilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bloom_filter_cs.BloomFilterDemo" />
       <module name="LowLevelDesign" />
@@ -77,6 +87,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lru_cache_cs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parking_lot.ParkingLotDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="parking_lot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,28 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tictactoe.TicTacToeDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tictactoe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParkingLotDemo" />
         <item itemvalue="Application.BloomFilterDemo" />
         <item itemvalue="Application.LRUCacheDemo" />
         <item itemvalue="Application.SnakeAndLadderDemo" />
         <item itemvalue="Application.SnakeLadderDemo" />
-        <item itemvalue="Application.TicTacToeDemo" />
       </list>
     </recent_temporary>
   </component>
