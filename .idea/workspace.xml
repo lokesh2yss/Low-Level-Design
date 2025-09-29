@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/AutoCompleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/builder/AutocompleteSystemBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/entities/AutocompleteSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/entities/Suggestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/entities/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/entities/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/strategy/AlphabeticalRanking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/strategy/FrequencyBasedStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auto_complete/strategy/interfaces/RankingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/TaskManagementSystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/ActivityLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/TaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/TaskManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/enums/TaskPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/observer/ActivityLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/observer/TaskObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/state/DoneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/state/InProgressState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/state/TaskState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/state/TodoState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/strategy/SortByDueDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/strategy/SortByPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskManagementSystem/strategy/TaskSortStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +69,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AutocompleteDemo">
+  <component name="RunManager" selected="Application.TaskManagementSystemDemo">
     <configuration name="AutocompleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="auto_complete.AutocompleteDemo" />
       <module name="LowLevelDesign" />
@@ -112,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnakeAndLadderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snake_ladder_cs.SnakeAndLadderDemo" />
+    <configuration name="TaskManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="taskManagementSystem.TaskManagementSystemDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snake_ladder_cs.*" />
+          <option name="PATTERN" value="taskManagementSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskManagementSystemDemo" />
         <item itemvalue="Application.AutocompleteDemo" />
         <item itemvalue="Application.ParkingLotDemo" />
         <item itemvalue="Application.BloomFilterDemo" />
         <item itemvalue="Application.LRUCacheDemo" />
-        <item itemvalue="Application.SnakeAndLadderDemo" />
       </list>
     </recent_temporary>
   </component>
