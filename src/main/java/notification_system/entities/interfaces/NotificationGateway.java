@@ -1,4 +1,4 @@
-package notification_system.interfaces;
+package notification_system.entities.interfaces;
 
 import notification_system.entities.Notification;
 
