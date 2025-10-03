@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/StackOverflowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/ReputationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/entities/interfaces/PostObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/enums/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/enums/VoteType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/service/StackOverflowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/strategy/KeywordSearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/strategy/SearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/strategy/TagSearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_overflow/strategy/UserSearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/ATMDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/CashDispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/DispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/enums/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/ATMState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/AuthenticatedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/HasCardState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/IdleState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackOverflowDemo">
+  <component name="RunManager" selected="Application.ATMDemo">
+    <configuration name="ATMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atm.ATMDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="atm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutocompleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="auto_complete.AutocompleteDemo" />
       <module name="LowLevelDesign" />
@@ -88,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="notification_system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parking_lot.ParkingLotDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking_lot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATMDemo" />
         <item itemvalue="Application.StackOverflowDemo" />
         <item itemvalue="Application.NotificationSystemDemo" />
         <item itemvalue="Application.TaskManagementSystemDemo" />
         <item itemvalue="Application.AutocompleteDemo" />
-        <item itemvalue="Application.ParkingLotDemo" />
       </list>
     </recent_temporary>
   </component>
