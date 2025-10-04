@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/ATMDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/CashDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/DispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/chain_of_responsibility/NoteDispenser50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/BankService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/entities/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/enums/OperationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/ATMState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/AuthenticatedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/HasCardState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atm/state/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/LoggingFrameworkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/AsyncLogProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/ConsoleAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/FileAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/LogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/LogMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/SimpleTextFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/interfaces/LogAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/entities/interfaces/LogFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logging_framework/enums/LogLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ATMDemo">
+  <component name="RunManager" selected="Application.LoggingFrameworkDemo">
     <configuration name="ATMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atm.ATMDemo" />
       <module name="LowLevelDesign" />
@@ -80,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutocompleteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="auto_complete.AutocompleteDemo" />
+    <configuration name="LoggingFrameworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logging_framework.LoggingFrameworkDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="auto_complete.*" />
+          <option name="PATTERN" value="logging_framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoggingFrameworkDemo" />
         <item itemvalue="Application.ATMDemo" />
         <item itemvalue="Application.StackOverflowDemo" />
         <item itemvalue="Application.NotificationSystemDemo" />
         <item itemvalue="Application.TaskManagementSystemDemo" />
-        <item itemvalue="Application.AutocompleteDemo" />
       </list>
     </recent_temporary>
   </component>
