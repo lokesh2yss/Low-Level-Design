@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/ElevatorSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/entities/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/entities/ElevatorSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/entities/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/enums/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/enums/RequestSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/observer/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/observer/ElevatorObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/ElevatorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingUpState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/strategy/ElevatorSelectionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/elevator_system/strategy/NearestElevatorStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

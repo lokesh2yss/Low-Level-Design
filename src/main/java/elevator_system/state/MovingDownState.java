@@ -36,7 +36,7 @@ public class MovingDownState implements ElevatorState{
             return;
         }
         //External Requests
-        if(request.getDirection() == Direction.DOWN.DOWN && request.getTargetFloor() <= elevator.getCurrentFloor()) {
+        if(request.getDirection() == Direction.DOWN && request.getTargetFloor() <= elevator.getCurrentFloor()) {
             elevator.getDownRequests().add(request.getTargetFloor());
         }
         else if(request.getDirection() == Direction.UP) {
