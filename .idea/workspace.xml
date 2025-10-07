@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/ChatAppDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/entities/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/entities/GroupChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/entities/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/entities/OneToOneChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat_application/service/ChatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +57,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ElevatorSystemDemo">
+  <component name="RunManager" selected="Application.ChatAppDemo">
     <configuration name="ATMDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="atm.ATMDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="atm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatAppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat_application.ChatAppDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat_application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverflowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_overflow.StackOverflowDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack_overflow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatAppDemo" />
         <item itemvalue="Application.ElevatorSystemDemo" />
         <item itemvalue="Application.PubSubDemo" />
         <item itemvalue="Application.LoggingFrameworkDemo" />
         <item itemvalue="Application.ATMDemo" />
-        <item itemvalue="Application.StackOverflowDemo" />
       </list>
     </recent_temporary>
   </component>
