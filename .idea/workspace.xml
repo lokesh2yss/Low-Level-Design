@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/SearchEngineDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/DocumentStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/InvertedIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/Posting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/SearchEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/entities/SearchResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/RankingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/ScoreBasedRankingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/ScoreThenAlphabeticalRankingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/ScoringStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/TermFrequencyScoringStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/strategy/TitleBoostScoringStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/SplitwiseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/BalanceSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/service/SplitwiseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/EqualSplitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/ExactSplitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/PercentageSplitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/SplitStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchEngineDemo">
+  <component name="RunManager" selected="Application.SplitwiseDemo">
     <configuration name="ChatAppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chat_application.ChatAppDemo" />
       <module name="LowLevelDesign" />
@@ -83,19 +82,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="elevator_system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoggingFrameworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logging_framework.LoggingFrameworkDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="logging_framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitwiseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="splitwise.SplitwiseDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="splitwise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitwiseDemo" />
         <item itemvalue="Application.SearchEngineDemo" />
         <item itemvalue="Application.ChatAppDemo" />
         <item itemvalue="Application.ElevatorSystemDemo" />
         <item itemvalue="Application.PubSubDemo" />
-        <item itemvalue="Application.LoggingFrameworkDemo" />
       </list>
     </recent_temporary>
   </component>
