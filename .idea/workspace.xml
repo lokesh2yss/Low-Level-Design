@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/SplitwiseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/BalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/service/SplitwiseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/EqualSplitStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/ExactSplitStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/PercentageSplitStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/splitwise/strategy/SplitStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/PaymentGatewayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/builder/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/entities/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/entities/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/enums/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/factory/PaymentProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/observer/CustomerNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/observer/MerchantNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/observer/PaymentObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/service/PaymentGatewayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/strategy/AbstractPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/strategy/CreditCardProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/strategy/PayPalProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/strategy/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payment_gateway/strategy/UPIProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +66,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SplitwiseDemo">
+  <component name="RunManager" selected="Application.PaymentGatewayDemo">
     <configuration name="ChatAppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chat_application.ChatAppDemo" />
       <module name="LowLevelDesign" />
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PubSubDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pub_sub.PubSubDemo" />
+    <configuration name="PaymentGatewayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="payment_gateway.PaymentGatewayDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pub_sub.*" />
+          <option name="PATTERN" value="payment_gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaymentGatewayDemo" />
         <item itemvalue="Application.SplitwiseDemo" />
         <item itemvalue="Application.SearchEngineDemo" />
         <item itemvalue="Application.ChatAppDemo" />
         <item itemvalue="Application.ElevatorSystemDemo" />
-        <item itemvalue="Application.PubSubDemo" />
       </list>
     </recent_temporary>
   </component>
