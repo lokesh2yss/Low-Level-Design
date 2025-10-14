@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/URLShortenerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/URLShortnerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/entities/ShortenedURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/enums/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/observer/AnalyticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/repository/InMemoryURLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/repository/URLRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/strategy/Base62Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/strategy/KeyGenerationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/strategy/RandomStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/url_shortener/strategy/UUIDStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rate_limiter/RateLimiterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rate_limiter/RateLimiterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rate_limiter/strategy/FixedWindowStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rate_limiter/strategy/RateLimitingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rate_limiter/strategy/TokenBucketStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +55,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.URLShortenerDemo">
-    <configuration name="ChatAppDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chat_application.ChatAppDemo" />
+  <component name="RunManager" selected="Application.RateLimiterDemo">
+    <configuration name="PaymentGatewayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="payment_gateway.PaymentGatewayDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chat_application.*" />
+          <option name="PATTERN" value="payment_gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentGatewayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="payment_gateway.PaymentGatewayDemo" />
+    <configuration name="RateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rate_limiter.RateLimiterDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="payment_gateway.*" />
+          <option name="PATTERN" value="rate_limiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RateLimiterDemo" />
         <item itemvalue="Application.URLShortenerDemo" />
         <item itemvalue="Application.PaymentGatewayDemo" />
         <item itemvalue="Application.SplitwiseDemo" />
         <item itemvalue="Application.SearchEngineDemo" />
-        <item itemvalue="Application.ChatAppDemo" />
       </list>
     </recent_temporary>
   </component>
