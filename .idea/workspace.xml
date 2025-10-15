@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/InventoryManagementSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/entities/InventoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/entities/StockItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/entities/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/entities/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/enums/TransactionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/factory/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/observer/LowStockAlertObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/observer/StockObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory_management_system/service/AuditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/VendingMachineDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/entities/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/entities/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/entities/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/enums/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/state/DispensingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/state/HasMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/state/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/state/ItemSelectedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending_machine/state/VendingMachineState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +60,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InventoryManagementSystemDemo">
+  <component name="RunManager" selected="Application.VendingMachineDemo">
     <configuration name="InventoryManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inventory_management_system.InventoryManagementSystemDemo" />
       <module name="LowLevelDesign" />
@@ -101,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitwiseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="splitwise.SplitwiseDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="splitwise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="URLShortenerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="url_shortener.URLShortenerDemo" />
       <module name="LowLevelDesign" />
@@ -127,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vending_machine.VendingMachineDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vending_machine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VendingMachineDemo" />
         <item itemvalue="Application.InventoryManagementSystemDemo" />
         <item itemvalue="Application.RateLimiterDemo" />
         <item itemvalue="Application.URLShortenerDemo" />
         <item itemvalue="Application.PaymentGatewayDemo" />
-        <item itemvalue="Application.SplitwiseDemo" />
       </list>
     </recent_temporary>
   </component>
