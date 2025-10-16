@@ -1,0 +1,28 @@
+package library_management_system.entities;
+
+import library_management_system.observer.Member;
+
+import java.time.LocalDate;
+
+public class Loan {
+    private final BookCopy copy;
+    private final Member member;
+    private final LocalDate checkoutDate;
+
+    public Loan(BookCopy copy, Member member) {
+        this.copy = copy;
+        this.member = member;
+        this.checkoutDate = LocalDate.now();
+    }
+    public BookCopy getCopy() {
+        return copy;
+    }
+
+    public Member getMember() {
+        return member;
+    }
+
+    public LocalDate getCheckoutDate() {
+        return checkoutDate;
+    }
+}
