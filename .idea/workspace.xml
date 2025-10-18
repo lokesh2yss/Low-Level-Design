@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/LibraryManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/LibraryManagementSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/entities/BookCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/entities/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/entities/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/enums/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/factory/ItemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/observer/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/observer/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/state/AvailableState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/state/CheckedOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/state/ItemState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/state/OnHoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/strategy/SearchByAuthorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/strategy/SearchByTitleStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/library_management_system/strategy/SearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/TrafficControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/TrafficControlSystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/entities/IntersectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/entities/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/enums/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/enums/LightColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/observer/CentralMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/observer/TrafficObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/EastWestGreenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/GreenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/IntersectionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/NorthSouthGreenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/RedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/SignalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/YellowState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LibraryManagementSystemDemo">
+  <component name="RunManager" selected="Application.TrafficControlSystemDemo">
     <configuration name="InventoryManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inventory_management_system.InventoryManagementSystemDemo" />
       <module name="LowLevelDesign" />
@@ -108,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLShortenerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="url_shortener.URLShortenerDemo" />
+    <configuration name="TrafficControlSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traffic_control_system.TrafficControlSystemDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="url_shortener.*" />
+          <option name="PATTERN" value="traffic_control_system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrafficControlSystemDemo" />
         <item itemvalue="Application.LibraryManagementSystemDemo" />
         <item itemvalue="Application.VendingMachineDemo" />
         <item itemvalue="Application.InventoryManagementSystemDemo" />
         <item itemvalue="Application.RateLimiterDemo" />
-        <item itemvalue="Application.URLShortenerDemo" />
       </list>
     </recent_temporary>
   </component>
