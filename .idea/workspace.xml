@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/TrafficControlSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/TrafficControlSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/entities/IntersectionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/entities/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/enums/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/enums/LightColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/observer/CentralMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/observer/TrafficObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/EastWestGreenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/GreenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/IntersectionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/NorthSouthGreenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/RedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/SignalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic_control_system/state/YellowState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/SocialNetworkDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/SocialNetworkFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/CommentableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/observer/PostObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/observer/UserNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/repositories/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/NewsFeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/strategy/ChronologicalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/strategy/NewsFeedGenerationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TrafficControlSystemDemo">
+  <component name="RunManager" selected="Application.SocialNetworkDemo">
     <configuration name="InventoryManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inventory_management_system.InventoryManagementSystemDemo" />
       <module name="LowLevelDesign" />
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rate_limiter.RateLimiterDemo" />
+    <configuration name="SocialNetworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social_network.SocialNetworkDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rate_limiter.*" />
+          <option name="PATTERN" value="social_network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocialNetworkDemo" />
         <item itemvalue="Application.TrafficControlSystemDemo" />
         <item itemvalue="Application.LibraryManagementSystemDemo" />
         <item itemvalue="Application.VendingMachineDemo" />
         <item itemvalue="Application.InventoryManagementSystemDemo" />
-        <item itemvalue="Application.RateLimiterDemo" />
       </list>
     </recent_temporary>
   </component>
