@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/SocialNetworkDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/SocialNetworkFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/CommentableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/observer/PostObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/observer/UserNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/repositories/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/NewsFeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/strategy/ChronologicalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/social_network/strategy/NewsFeedGenerationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/LearningPlatformDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/CourseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/factory/ContentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/CertificateIssuer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/InstructorNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/ProgressObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/EnrollmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/services/EnrollmentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +68,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SocialNetworkDemo">
-    <configuration name="InventoryManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inventory_management_system.InventoryManagementSystemDemo" />
+  <component name="RunManager" selected="Application.LearningPlatformDemo">
+    <configuration name="LearningPlatformDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning_platform.LearningPlatformDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inventory_management_system.*" />
+          <option name="PATTERN" value="learning_platform.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearningPlatformDemo" />
         <item itemvalue="Application.SocialNetworkDemo" />
         <item itemvalue="Application.TrafficControlSystemDemo" />
         <item itemvalue="Application.LibraryManagementSystemDemo" />
         <item itemvalue="Application.VendingMachineDemo" />
-        <item itemvalue="Application.InventoryManagementSystemDemo" />
       </list>
     </recent_temporary>
   </component>
