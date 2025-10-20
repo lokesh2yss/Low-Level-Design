@@ -2,7 +2,6 @@ package learning_platform.facade;
 
 import learning_platform.composite.Course;
 import learning_platform.composite.CourseComponent;
-import learning_platform.composite.Lecture;
 import learning_platform.entities.Enrollment;
 import learning_platform.entities.Instructor;
 import learning_platform.entities.Student;

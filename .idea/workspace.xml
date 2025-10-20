@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/LearningPlatformDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/CourseComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/composite/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/factory/ContentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/CertificateIssuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/InstructorNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/observer/ProgressObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/EnrollmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning_platform/services/EnrollmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/GameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/MinesweeperSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/FlagCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/MoveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/RevealCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/UnflagCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/enums/GameStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/observer/ConsoleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/observer/GameObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/FlaggedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/HiddenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/RevealedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/strategy/MinePlacementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/strategy/RandomMinePlacementStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LearningPlatformDemo">
+  <component name="RunManager" selected="Application.GameDemo">
+    <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minesweeper_game.GameDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="minesweeper_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearningPlatformDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning_platform.LearningPlatformDemo" />
       <module name="LowLevelDesign" />
@@ -121,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vending_machine.VendingMachineDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vending_machine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameDemo" />
         <item itemvalue="Application.LearningPlatformDemo" />
         <item itemvalue="Application.SocialNetworkDemo" />
         <item itemvalue="Application.TrafficControlSystemDemo" />
         <item itemvalue="Application.LibraryManagementSystemDemo" />
-        <item itemvalue="Application.VendingMachineDemo" />
       </list>
     </recent_temporary>
   </component>
