@@ -5,26 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/GameDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/MinesweeperSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/FlagCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/RevealCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/command/UnflagCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/entities/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/enums/GameStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/observer/ConsoleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/observer/GameObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/CellState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/FlaggedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/HiddenState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/state/RevealedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/strategy/MinePlacementStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/minesweeper_game/strategy/RandomMinePlacementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/SpotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/SpotifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/composite/PlayableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/composite/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/composite/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/entities/AbstractUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/entities/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/entities/SpotifyOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/repositories/PlaylistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/repositories/SongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/MusicStreamingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/SpotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/command/NextTrackCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/command/PauseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/command/PlayCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/command/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/composite/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/composite/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/composite/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/composite/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/entities/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/entities/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/enums/PlayerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/enums/SubscriptionTier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/observer/ArtistObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/service/RecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/state/PausedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/state/PlayerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/state/PlayingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/state/StoppedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/strategy/FreePlaybackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/strategy/GenreBasedRecommendationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/strategy/PlaybackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/strategy/PremiumPlaybackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spotify_cs/strategy/RecommendationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning_platform/facade/LearningPlatformFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +91,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GameDemo">
+  <component name="RunManager" selected="Application.SpotifyDemo">
     <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minesweeper_game.GameDemo" />
       <module name="LowLevelDesign" />
@@ -96,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="library_management_system.LibraryManagementSystemDemo" />
+    <configuration name="SocialNetworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="social_network.SocialNetworkDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="library_management_system.*" />
+          <option name="PATTERN" value="social_network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialNetworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="social_network.SocialNetworkDemo" />
+    <configuration name="SpotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spotify_cs.SpotifyDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="social_network.*" />
+          <option name="PATTERN" value="spotify_cs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpotifyDemo" />
         <item itemvalue="Application.GameDemo" />
         <item itemvalue="Application.LearningPlatformDemo" />
         <item itemvalue="Application.SocialNetworkDemo" />
         <item itemvalue="Application.TrafficControlSystemDemo" />
-        <item itemvalue="Application.LibraryManagementSystemDemo" />
       </list>
     </recent_temporary>
   </component>
