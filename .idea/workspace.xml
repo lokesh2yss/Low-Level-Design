@@ -5,34 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/AmazonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/OnlineShoppingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/OrderLineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/entities/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/enums/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/enums/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/exceptions/OutOfStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/observer/OrderObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/services/InventoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/services/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/services/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/state/CancelledState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/state/DeliveredState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/state/OrderState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/state/PlacedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/state/ShippedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/strategy/CreditCardPaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/strategy/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/amazon/strategy/UPIPaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Experience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Like.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/NewsFeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/enums/ConnectionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/enums/NotificationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/observer/NotificationObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/ConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/NewsFeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/strategy/ChronologicalSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/strategy/FeedSortingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/OnlineShoppingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/OnlineShoppingSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,7 +73,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AmazonDemo">
+  <component name="RunManager" selected="Application.LinkedInDemo">
     <configuration name="AmazonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.AmazonDemo" />
       <module name="LowLevelDesign" />
@@ -117,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialNetworkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="social_network.SocialNetworkDemo" />
+    <configuration name="LinkedInDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedin.LinkedInDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="social_network.*" />
+          <option name="PATTERN" value="linkedin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedInDemo" />
         <item itemvalue="Application.AmazonDemo" />
         <item itemvalue="Application.SpotifyDemo" />
         <item itemvalue="Application.GameDemo" />
         <item itemvalue="Application.LearningPlatformDemo" />
-        <item itemvalue="Application.SocialNetworkDemo" />
       </list>
     </recent_temporary>
   </component>
