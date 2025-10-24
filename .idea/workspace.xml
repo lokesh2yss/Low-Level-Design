@@ -5,30 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Education.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Experience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Like.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/NewsFeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/entities/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/enums/ConnectionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/enums/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/observer/NotificationObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/ConnectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/NewsFeedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/services/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/strategy/ChronologicalSortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedin/strategy/FeedSortingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/CricInfoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/CommentaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Innings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/PlayerStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/ExtraType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/MatchStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/MatchType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/PlayerRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/WicketType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/CommentaryDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/MatchObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/ScorecardDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/UserNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/repositories/MatchRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/repositories/PlayerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/services/CricInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/FinishedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/InBreakState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/MatchState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/ScheduledState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/MatchFormatStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/ODIFormatStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/T20FormatStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/OnlineShoppingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/OnlineShoppingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedInDemo">
+  <component name="RunManager" selected="Application.CricInfoDemo">
     <configuration name="AmazonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.AmazonDemo" />
       <module name="LowLevelDesign" />
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minesweeper_game.GameDemo" />
+    <configuration name="CricInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cricinfo.CricInfoDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minesweeper_game.*" />
+          <option name="PATTERN" value="cricinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearningPlatformDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning_platform.LearningPlatformDemo" />
+    <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minesweeper_game.GameDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning_platform.*" />
+          <option name="PATTERN" value="minesweeper_game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CricInfoDemo" />
         <item itemvalue="Application.LinkedInDemo" />
         <item itemvalue="Application.AmazonDemo" />
         <item itemvalue="Application.SpotifyDemo" />
         <item itemvalue="Application.GameDemo" />
-        <item itemvalue="Application.LearningPlatformDemo" />
       </list>
     </recent_temporary>
   </component>

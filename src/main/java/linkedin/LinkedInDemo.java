@@ -5,7 +5,6 @@ import linkedin.entities.Experience;
 import linkedin.entities.Member;
 import linkedin.entities.Post;
 
-import java.time.LocalDate;
 import java.util.List;
 
 public class LinkedInDemo {
