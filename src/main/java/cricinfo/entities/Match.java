@@ -55,7 +55,7 @@ public class Match {
             observer.update(this, ball);
         }
     }
-    public Innings getCurrentInnings() { return innings.get(innings.size() - 1); }
+    public Innings getCurrentInnings() { return innings.getLast(); }
 
     public void setCurrentState(MatchState currentState) {
         this.currentState = currentState;

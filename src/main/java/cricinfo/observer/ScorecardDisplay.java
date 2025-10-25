@@ -23,7 +23,7 @@ public class ScorecardDisplay implements MatchObserver{
 
         } else if (match.getCurrentStatus() == MatchStatus.IN_BREAK) {
             System.out.println("\n--- END OF INNINGS ---");
-            Innings lastInnings = match.getInnings().get(match.getInnings().size() - 1);
+            Innings lastInnings = match.getInnings().getLast();
             System.out.printf("Final Score: %s: %d/%d (Overs: %.1f)%n",
                     lastInnings.getBattingTeam().getName(),
                     lastInnings.getScore(),

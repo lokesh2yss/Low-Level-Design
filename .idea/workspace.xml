@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/CricInfoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/CommentaryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Innings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/PlayerStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/ExtraType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/MatchStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/MatchType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/PlayerRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/enums/WicketType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/CommentaryDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/MatchObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/ScorecardDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/observer/UserNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/repositories/MatchRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/repositories/PlayerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/services/CricInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/FinishedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/InBreakState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/MatchState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/ScheduledState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/MatchFormatStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/ODIFormatStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cricinfo/strategy/T20FormatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linkedin/LinkedInDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +37,27 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="32k3uQDsdINkpJdmTBf8Rm3qVQT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "22",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.CricInfoDemo">
     <configuration name="AmazonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.AmazonDemo" />

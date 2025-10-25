@@ -83,7 +83,7 @@ public class Ball {
             return this;
         }
         public Builder withExtraType(ExtraType type) {
-            this.extraType = extraType;
+            this.extraType = type;
             return this;
         }
         public Builder withCommentary(String commentary) {

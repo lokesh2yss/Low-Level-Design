@@ -36,8 +36,8 @@ public class Wicket {
         private final Player playerOut;
 
         //Optional parameters;
-        private Player caughtBy;
-        private Player runoutBy;
+        private Player caughtBy = null;
+        private Player runoutBy = null;
         public Builder(WicketType wicketType, Player playerOut) {
             this.wicketType = wicketType;
             this.playerOut = playerOut;
@@ -48,7 +48,7 @@ public class Wicket {
         }
         public Builder runoutBy(Player player) {
             this.runoutBy = player;
-            return  this;
+            return this;
         }
         public Wicket build() {
             // We could add validation here, e.g., ensure 'caughtBy' is only set for WicketType.CAUGHT

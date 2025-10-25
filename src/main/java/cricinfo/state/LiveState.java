@@ -24,7 +24,7 @@ public class LiveState implements MatchState{
 
         // --- A. WIN CONDITION: Chasing team surpasses the target ---
         if(isFinalInnings) {
-            int targetScore = match.getInnings().get(0).getScore() + 1;
+            int targetScore = match.getInnings().getFirst().getScore() + 1;
             if(currentInnings.getScore() >= targetScore) {
                 int wicketsRemaining = (currentInnings.getBattingTeam().getPlayers().size() -1) - currentInnings.getWickets();
                 declareWinner(match, currentInnings.getBattingTeam(), "won by " + wicketsRemaining + " wickets");
@@ -35,7 +35,7 @@ public class LiveState implements MatchState{
         if(isInningsOver(match)) {
             if(isFinalInnings) {
                 // The whole match is over, determine winner by runs or a tie
-                int score1 = match.getInnings().get(0).getScore();
+                int score1 = match.getInnings().getFirst().getScore();
                 int score2 = match.getCurrentInnings().getScore();
 
                 if (score1 > score2) {
