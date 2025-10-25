@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/CoffeeVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/CoffeeVendingMachineDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Cappuccino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/CaramelSyrupDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/ExtraSugarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Latte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/CoffeeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/ToppingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/factory/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/OutOfIngredientState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/ReadyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/SelectingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/VendingMachineState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/entities/Wicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cricinfo/state/LiveState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CoffeeVendingMachineDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -58,7 +72,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CricInfoDemo">
+  <component name="RunManager" selected="Application.CoffeeVendingMachineDemo">
     <configuration name="AmazonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.AmazonDemo" />
       <module name="LowLevelDesign" />
@@ -72,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CricInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cricinfo.CricInfoDemo" />
+    <configuration name="CoffeeVendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee_vending_machine.CoffeeVendingMachineDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cricinfo.*" />
+          <option name="PATTERN" value="coffee_vending_machine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minesweeper_game.GameDemo" />
+    <configuration name="CricInfoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cricinfo.CricInfoDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minesweeper_game.*" />
+          <option name="PATTERN" value="cricinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoffeeVendingMachineDemo" />
         <item itemvalue="Application.CricInfoDemo" />
         <item itemvalue="Application.LinkedInDemo" />
         <item itemvalue="Application.AmazonDemo" />
         <item itemvalue="Application.SpotifyDemo" />
-        <item itemvalue="Application.GameDemo" />
       </list>
     </recent_temporary>
   </component>
