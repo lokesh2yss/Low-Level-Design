@@ -40,6 +40,7 @@ public class ElevatorSystem {
     }
     public void start() {
         for(Elevator elevator: elevators.values()) {
+            elevator.startElevator();
             executorService.submit(elevator);
         }
     }

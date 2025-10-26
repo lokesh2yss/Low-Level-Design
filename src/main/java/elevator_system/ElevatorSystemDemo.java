@@ -5,7 +5,23 @@ import elevator_system.enums.Direction;
 
 public class ElevatorSystemDemo {
     public static void main(String[] args) throws InterruptedException {
-// Setup: A building with 2 elevators
+
+        ElevatorSystem system = ElevatorSystem.getInstance(2);
+        system.start();
+
+        Thread.sleep(500);
+        system.requestElevator(5, Direction.UP);
+        Thread.sleep(200);
+        system.selectFloor(1, 10);
+        Thread.sleep(500);
+        system.requestElevator(3, Direction.DOWN);
+        Thread.sleep(200);
+        system.selectFloor(2, 1);
+
+        Thread.sleep(8000);
+        system.shutdown();
+        /*
+        // Setup: A building with 2 elevators
         int numElevators = 2;
         // The getInstance method now initializes the elevators and attaches the Display (Observer).
         ElevatorSystem elevatorSystem = ElevatorSystem.getInstance(numElevators);
@@ -40,11 +56,11 @@ public class ElevatorSystemDemo {
 
         // Let the simulation run for a while to observe the display updates
         System.out.println("\n--- Letting simulation run for 1 second ---");
-        Thread.sleep(1000);
+        Thread.sleep(8000);
 
         // Shutdown the system
         elevatorSystem.shutdown();
         System.out.println("\n--- SIMULATION END ---");
-
+*/
     }
 }

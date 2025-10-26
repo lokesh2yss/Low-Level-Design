@@ -5,9 +5,8 @@ import elevator_system.observer.ElevatorObserver;
 import elevator_system.state.ElevatorState;
 import elevator_system.state.IdleState;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Elevator implements Runnable{
@@ -17,17 +16,21 @@ public class Elevator implements Runnable{
 
     private volatile boolean isRunning;
 
-    private final TreeSet<Integer> upRequests;
-    private final TreeSet<Integer> downRequests;
+    private final Set<Integer> upRequests;
+    private final Set<Integer> downRequests;
 
-    private final List<ElevatorObserver> observers = new ArrayList<>();
+    private final List<ElevatorObserver> observers;
     public Elevator(int id) {
         this.id = id;
-        this.currentFloor = new AtomicInteger();
+        this.currentFloor = new AtomicInteger(0);
         this.state = new IdleState();
         this.isRunning = false;
-        this.upRequests = new TreeSet<>();
-        this.downRequests = new TreeSet<>((a,b) -> b-a);
+        this.upRequests = new ConcurrentSkipListSet<>();
+        this.downRequests = new ConcurrentSkipListSet<>(Comparator.reverseOrder());
+        this.observers = Collections.synchronizedList(new ArrayList<>());
+
+        //this.upRequests = new TreeSet<>();
+        //this.downRequests = new TreeSet<>((a,b) -> b-a);
     }
 
     public int getId() {
@@ -50,9 +53,12 @@ public class Elevator implements Runnable{
     public void move() {
         state.move(this);
     }
-    public synchronized void addRequest(Request request) {
+
+    public void addRequest(Request request) {
         System.out.println("Elevator " + id + " processing: " + request);
-        state.addRequest(this, request);
+        synchronized (this) {
+            state.addRequest(this, request);
+        }
     }
     public int getCurrentFloor() {
         return currentFloor.get();
@@ -65,16 +71,19 @@ public class Elevator implements Runnable{
         return state.getDirection();
     }
 
-    public TreeSet<Integer> getUpRequests() {
+    public Set<Integer> getUpRequests() {
         return upRequests;
     }
 
-    public TreeSet<Integer> getDownRequests() {
+    public Set<Integer> getDownRequests() {
         return downRequests;
     }
 
     public boolean isRunning() {
         return isRunning;
+    }
+    public void startElevator() {
+        this.isRunning = true;
     }
     public void stopElevator() {
         this.isRunning = false;

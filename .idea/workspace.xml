@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/CoffeeVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/CoffeeVendingMachineDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/CaramelSyrupDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/CoffeeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/ExtraSugarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/entities/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/CoffeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/Ingredient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/enums/ToppingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/factory/CoffeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/OutOfIngredientState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/SelectingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coffee_vending_machine/state/VendingMachineState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/ElevatorSystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/ElevatorSystemDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/entities/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/entities/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/entities/ElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/entities/ElevatorSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/state/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingDownState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingUpState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/elevator_system/state/MovingUpState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CoffeeVendingMachineDemo.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "22",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CoffeeVendingMachineDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.CoffeeVendingMachineDemo">
+}</component>
+  <component name="RunManager" selected="Application.ElevatorSystemDemo">
     <configuration name="AmazonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="amazon.AmazonDemo" />
       <module name="LowLevelDesign" />
@@ -112,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElevatorSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="elevator_system.ElevatorSystemDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elevator_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedInDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedin.LinkedInDemo" />
       <module name="LowLevelDesign" />
@@ -125,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spotify_cs.SpotifyDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spotify_cs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElevatorSystemDemo" />
         <item itemvalue="Application.CoffeeVendingMachineDemo" />
         <item itemvalue="Application.CricInfoDemo" />
         <item itemvalue="Application.LinkedInDemo" />
         <item itemvalue="Application.AmazonDemo" />
-        <item itemvalue="Application.SpotifyDemo" />
       </list>
     </recent_temporary>
   </component>

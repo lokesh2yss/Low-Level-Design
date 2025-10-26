@@ -5,43 +5,48 @@ import elevator_system.entities.Request;
 import elevator_system.enums.Direction;
 import elevator_system.enums.RequestSource;
 
-public class MovingUpState implements ElevatorState{
+public class MovingUpState implements ElevatorState {
+
     @Override
     public void move(Elevator elevator) {
-        if(elevator.getUpRequests().isEmpty()) {
+        if (elevator.getUpRequests().isEmpty()) {
             elevator.setState(new IdleState());
             return;
         }
-        Integer nextFloor = elevator.getUpRequests().first();
-        elevator.setCurrentFloor(elevator.getCurrentFloor()+1);
-        if(elevator.getCurrentFloor() == nextFloor) {
+
+        Integer nextFloor = elevator.getUpRequests().iterator().next();
+
+        // Move one floor up
+        elevator.setCurrentFloor(elevator.getCurrentFloor() + 1);
+
+        if (elevator.getCurrentFloor() == nextFloor) {
             System.out.println("Elevator " + elevator.getId() + " stopped at floor " + nextFloor);
-            elevator.getUpRequests().pollFirst();
+            elevator.getUpRequests().remove(nextFloor);
         }
-        if (elevator.getUpRequests().isEmpty()) {
+
+        // Change direction only after finishing all upRequests
+        if (elevator.getUpRequests().isEmpty() && !elevator.getDownRequests().isEmpty()) {
+            elevator.setState(new MovingDownState());
+        } else if (elevator.getUpRequests().isEmpty()) {
             elevator.setState(new IdleState());
         }
     }
 
     @Override
     public void addRequest(Elevator elevator, Request request) {
-        // Internal requests always get added to the appropriate queue
-        if(request.getSource() == RequestSource.INTERNAL) {
-            if(request.getTargetFloor() > elevator.getCurrentFloor()) {
-                elevator.getUpRequests().add(request.getTargetFloor());
-            }
-            else {
-                elevator.getDownRequests().add(request.getTargetFloor());
-            }
+        int target = request.getTargetFloor();
+        int current = elevator.getCurrentFloor();
+
+        if (request.getSource() == RequestSource.INTERNAL) {
+            if (target > current) elevator.getUpRequests().add(target);
+            else elevator.getDownRequests().add(target);
             return;
         }
-        // External requests
-        if(request.getDirection() == Direction.UP && request.getTargetFloor() >= elevator.getCurrentFloor()) {
-            elevator.getUpRequests().add(request.getTargetFloor());
-        }
-        else if(request.getDirection() == Direction.DOWN) {
-            elevator.getDownRequests().add(request.getTargetFloor());
-        }
+
+        if (request.getDirection() == Direction.UP && target >= current)
+            elevator.getUpRequests().add(target);
+        else
+            elevator.getDownRequests().add(target);
     }
 
     @Override
