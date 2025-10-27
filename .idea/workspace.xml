@@ -5,33 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/RestaurantManagementSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/command/PrepareOrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/command/ServeOrderCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/BaseBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/BillComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/BillDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/ServiceChargeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/decorator/TaxDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/entities/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/enums/TableStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/facade/RestaurantManagementSystemFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/observer/OrderObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/state/OrderItemState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/state/OrderedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/state/PreparingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/state/ReadyForPickupState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurant_management_system/state/ServedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/OnlineStockExchangeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/StockExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/StockExchangeSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/command/BuyStockCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/command/OrderCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/command/SellStockCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/entities/OrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/enums/OrderType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/exceptions/InsufficientStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/observer/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/observer/StockObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/state/CancelledState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/state/FilledState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/state/OpenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/state/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/strategy/ExecutionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/strategy/LimitOrderStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_stock_exchange/strategy/MarketOrderStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +67,7 @@
   "keyToString": {
     "Application.CoffeeVendingMachineDemo.executor": "Run",
     "Application.ElevatorSystemDemo.executor": "Run",
+    "Application.OnlineStockExchangeDemo.executor": "Run",
     "Application.RestaurantManagementSystemDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +81,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RestaurantManagementSystemDemo">
+  <component name="RunManager" selected="Application.OnlineStockExchangeDemo">
     <configuration name="CoffeeVendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee_vending_machine.CoffeeVendingMachineDemo" />
       <module name="LowLevelDesign" />
@@ -123,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedInDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedin.LinkedInDemo" />
+    <configuration name="OnlineStockExchangeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="online_stock_exchange.OnlineStockExchangeDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedin.*" />
+          <option name="PATTERN" value="online_stock_exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnlineStockExchangeDemo" />
         <item itemvalue="Application.RestaurantManagementSystemDemo" />
         <item itemvalue="Application.ElevatorSystemDemo" />
         <item itemvalue="Application.CoffeeVendingMachineDemo" />
         <item itemvalue="Application.CricInfoDemo" />
-        <item itemvalue="Application.LinkedInDemo" />
       </list>
     </recent_temporary>
   </component>
