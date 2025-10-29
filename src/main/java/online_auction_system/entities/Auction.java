@@ -1,7 +1,9 @@
 package online_auction_system.entities;
 
-import online_auction_system.enums.AuctionState;
 import online_auction_system.observer.AuctionObserver;
+import online_auction_system.state.ActiveState;
+import online_auction_system.state.AuctionState;
+import online_auction_system.state.PendingState;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -28,52 +30,19 @@ public class Auction {
 
         this.bids = new ArrayList<>();
         this.observers = ConcurrentHashMap.newKeySet();// Thread-safe set
-        this.state = AuctionState.ACTIVE;
+        this.state = new PendingState();
+    }
+    public void startAuction() {
+        state.startAuction(this);
     }
     public synchronized void placeBid(User bidder, BigDecimal amount) {
-        if (state != AuctionState.ACTIVE) {
-            throw new IllegalStateException("Auction is not active.");
-        }
-        if (LocalDateTime.now().isAfter(endTime)) {
-            endAuction();
-            throw new IllegalStateException("Auction has already ended.");
-        }
-        Bid highestBid = getHighestBid();
-        BigDecimal currentMaxAmount = (highestBid == null) ? startingPrice : highestBid.getAmount();
-        if(amount.compareTo(currentMaxAmount) <= 0) {
-            throw new IllegalArgumentException("Bid must be higher than the current highest bid.");
-        }
-        User previousHighestBidder = (highestBid != null) ? highestBid.getBidder() : null;
-
-        Bid newBid = new Bid(bidder, amount);
-        bids.add(newBid);
-        addObserver(bidder); // The new bidder is now an observer
-
-        System.out.printf("SUCCESS: %s placed a bid of $%.2f on '%s'.\n", bidder.getName(), amount, itemName);
-
-        // Notify the previous highest bidder that they have been outbid
-        if (previousHighestBidder != null && !previousHighestBidder.equals(bidder)) {
-            notifyObserver(previousHighestBidder, String.format("You have been outbid on '%s'! The new highest bid is $%.2f.", itemName, amount));
-        }
+        state.placeBid(this, bidder, amount);
     }
     public synchronized void endAuction() {
-        if(state != AuctionState.ACTIVE) {
-            System.out.println("Auction already ended");
-            return; //already ended
-        }
-        this.state = AuctionState.CLOSED;
-        this.winningBid = getHighestBid();
-
-        String endMessage;
-        if (winningBid != null) {
-            endMessage = String.format("Auction for '%s' has ended. Winner is %s with a bid of $%.2f!",
-                    itemName, winningBid.getBidder().getName(), winningBid.getAmount());
-        } else {
-            endMessage = String.format("Auction for '%s' has ended. There were no bids.", itemName);
-        }
-
-        System.out.println("\n" + endMessage.toUpperCase());
-        notifyAllObservers(endMessage);
+        state.endAuction(this);
+    }
+    public void cancelAuction() {
+        state.cancelAuction(this);
     }
     public Bid getHighestBid() {
         if(bids.isEmpty()) {
@@ -81,27 +50,41 @@ public class Auction {
         }
         return Collections.max(bids);
     }
+    public void addBid(Bid bid) {
+        bids.add(bid);
+    }
     public boolean isActive() {
-        return state == AuctionState.ACTIVE;
+        return state instanceof ActiveState;
     }
-    private void addObserver(AuctionObserver observer) {
-        observers.add(observer);
+    public void addObserver(AuctionObserver observer) {
+        if (!observers.contains(observer)) observers.add(observer);
     }
-    private void notifyAllObservers(String message) {
+
+    public void notifyObserver(AuctionObserver observer, String message) {
+        observer.onUpdate(this, message);
+    }
+
+    public void setState(AuctionState newState) {
+        this.state = newState;
+    }
+    public AuctionState getState() {
+        return state;
+    }
+    public void notifyAllObservers(String message) {
         for(AuctionObserver observer: observers) {
             observer.onUpdate(this, message);
         }
-    }
-    private void notifyObserver(AuctionObserver observer, String  message) {
-        observer.onUpdate(this, message);
     }
 
     public String getId() {
         return id;
     }
+    public LocalDateTime getEndTime() {
+        return endTime;
+    }
 
-    public AuctionState getState() {
-        return state;
+    public BigDecimal getStartingPrice() {
+        return startingPrice;
     }
 
     public Bid getWinningBid() {

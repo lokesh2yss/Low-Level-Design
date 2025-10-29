@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/OnlineAuctionSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Bid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/enums/AuctionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/observer/AuctionObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/services/AuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/state/ActiveState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/state/AuctionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/state/CancelledState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/state/ClosedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/state/PendingState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online_auction_system/OnlineAuctionSystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/OnlineAuctionSystemDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online_auction_system/enums/AuctionState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/online_auction_system/services/AuctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/services/AuctionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

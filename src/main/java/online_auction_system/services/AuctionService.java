@@ -55,6 +55,10 @@ public class AuctionService {
         long delay = java.time.Duration.between(LocalDateTime.now(), endTime).toMillis();
         scheduler.schedule(() -> endAuction(auction.getId()), delay, TimeUnit.MILLISECONDS);
         System.out.printf("New auction created for '%s' (ID: %s), ending at %s.\n", itemName, auction.getId(), endTime);
+        System.out.println("Auction scheduled to end in " + delay + " ms");
+        System.out.println("Current time: " + LocalDateTime.now());
+        System.out.println("End time: " + endTime);
+
         return auction;
     }
     public List<Auction> viewActiveAuctions() {
