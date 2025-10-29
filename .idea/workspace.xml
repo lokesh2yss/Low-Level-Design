@@ -5,30 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/MovieBookingSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/enums/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/enums/SeatStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/enums/SeatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/observer/MovieObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/observer/MovieSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/observer/UserObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/services/BookingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/services/MovieBookingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/services/SeatLockManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/strategy/CreditCardPaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/strategy/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/strategy/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/strategy/WeekdayPricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/movie_booking_system/strategy/WeekendPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/OnlineAuctionSystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/enums/AuctionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/observer/AuctionObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/services/AuctionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +51,7 @@
     "Application.CoffeeVendingMachineDemo.executor": "Run",
     "Application.ElevatorSystemDemo.executor": "Run",
     "Application.MovieBookingSystemDemo.executor": "Run",
+    "Application.OnlineAuctionSystemDemo.executor": "Run",
     "Application.OnlineStockExchangeDemo.executor": "Run",
     "Application.RestaurantManagementSystemDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -82,20 +66,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MovieBookingSystemDemo">
-    <configuration name="CoffeeVendingMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee_vending_machine.CoffeeVendingMachineDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee_vending_machine.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OnlineAuctionSystemDemo">
     <configuration name="ElevatorSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="elevator_system.ElevatorSystemDemo" />
       <module name="LowLevelDesign" />
@@ -115,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="movie_booking_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineAuctionSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="online_auction_system.OnlineAuctionSystemDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="online_auction_system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnlineAuctionSystemDemo" />
         <item itemvalue="Application.MovieBookingSystemDemo" />
         <item itemvalue="Application.OnlineStockExchangeDemo" />
         <item itemvalue="Application.RestaurantManagementSystemDemo" />
         <item itemvalue="Application.ElevatorSystemDemo" />
-        <item itemvalue="Application.CoffeeVendingMachineDemo" />
       </list>
     </recent_temporary>
   </component>
