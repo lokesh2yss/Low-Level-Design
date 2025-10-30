@@ -57,7 +57,7 @@ public class Auction {
         return state instanceof ActiveState;
     }
     public void addObserver(AuctionObserver observer) {
-        if (!observers.contains(observer)) observers.add(observer);
+        observers.add(observer);
     }
 
     public void notifyObserver(AuctionObserver observer, String message) {
