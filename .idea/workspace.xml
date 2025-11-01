@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/FileSystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/CatCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/CdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/EchoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/LsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/MkdirCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/PwdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/command/TouchCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/composite/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/composite/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/composite/FileSystemNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/entities/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/entities/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/strategy/DetailedListingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/strategy/ListingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/in_memory_file_system/strategy/SimpleListingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/VCSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/VersionControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/composite/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/composite/FileSystemNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/entities/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/entities/BranchManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/entities/Commit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/version_control_system/entities/CommitManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/online_auction_system/entities/Auction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,27 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CoffeeVendingMachineDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElevatorSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieBookingSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OnlineAuctionSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OnlineStockExchangeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestaurantManagementSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CoffeeVendingMachineDemo.executor": "Run",
+    "Application.ElevatorSystemDemo.executor": "Run",
+    "Application.FileSystemDemo.executor": "Run",
+    "Application.MovieBookingSystemDemo.executor": "Run",
+    "Application.OnlineAuctionSystemDemo.executor": "Run",
+    "Application.OnlineStockExchangeDemo.executor": "Run",
+    "Application.RestaurantManagementSystemDemo.executor": "Run",
+    "Application.VCSDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "22",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.FileSystemDemo">
+}]]></component>
+  <component name="RunManager" selected="Application.VCSDemo">
     <configuration name="FileSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in_memory_file_system.FileSystemDemo" />
       <module name="LowLevelDesign" />
@@ -130,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantManagementSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restaurant_management_system.RestaurantManagementSystemDemo" />
+    <configuration name="VCSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="version_control_system.VCSDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restaurant_management_system.*" />
+          <option name="PATTERN" value="version_control_system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VCSDemo" />
         <item itemvalue="Application.FileSystemDemo" />
         <item itemvalue="Application.OnlineAuctionSystemDemo" />
         <item itemvalue="Application.MovieBookingSystemDemo" />
         <item itemvalue="Application.OnlineStockExchangeDemo" />
-        <item itemvalue="Application.RestaurantManagementSystemDemo" />
       </list>
     </recent_temporary>
   </component>
