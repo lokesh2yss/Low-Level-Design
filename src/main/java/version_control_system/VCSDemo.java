@@ -35,7 +35,7 @@ public class VCSDemo {
         System.out.println("\n3. Creating a new branch 'feature/add-tests'...");
         vcs.createBranch("feature/add-tests");
         vcs.checkoutBranch("feature/add-tests");
-
+        root = vcs.getWorkingDirectory();
         System.out.println("\n4. Working on the new branch...");
         Directory testDir = new Directory("tests");
         root.addChild(testDir);
