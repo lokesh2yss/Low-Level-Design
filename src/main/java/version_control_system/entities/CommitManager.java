@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class CommitManager {
     private final Map<String, Commit> commits = new HashMap<>();
-    public Commit createCommit(String message, String author, Commit parent, Directory rootSnapshot) {
-        Commit commit = new Commit(message, author, parent, rootSnapshot);
+    public Commit createCommit(String author, String message,  Commit parent, Directory rootSnapshot) {
+        Commit commit = new Commit(author, message, parent, rootSnapshot);
         commits.put(commit.getId(), commit);
         return commit;
     }

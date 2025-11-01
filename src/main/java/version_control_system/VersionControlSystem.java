@@ -15,7 +15,7 @@ public class VersionControlSystem {
         // Initialize with a root directory
         this.workingDirectory = new Directory("root");
         // Create the first commit (initial state)
-        Commit initialCommit = commitManager.createCommit("Initial commit", "system" , null, (Directory) workingDirectory.clone());
+        Commit initialCommit = commitManager.createCommit( "system" , "Initial commit",null, (Directory) workingDirectory.clone());
         // Initialize branch manager with the first commit
         this.branchManager = new BranchManager(initialCommit);
     }
@@ -32,8 +32,9 @@ public class VersionControlSystem {
     public String commit(String author, String message) {
         Commit parentCommit = branchManager.getCurrentBranch().getHead();
         Directory snapshot = (Directory) workingDirectory.clone();
-        Commit newCommit = new Commit(message, author, parentCommit, snapshot);
+        Commit newCommit = commitManager.createCommit(author, message, parentCommit, snapshot);
         branchManager.updateHead(newCommit);
+
         System.out.println("Committed " + newCommit.getId() + " to branch " + branchManager.getCurrentBranch().getName());
         return newCommit.getId();
     }

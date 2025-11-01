@@ -13,7 +13,7 @@ public class Commit {
     private final Commit parent;
     private final Directory rootSnapshot;
 
-    public Commit(String message, String author, Commit parent, Directory rootSnapshot) {
+    Commit(String author, String message, Commit parent, Directory rootSnapshot) {
         this.id = UUID.randomUUID().toString();
         this.message = message;
         this.author = author;
