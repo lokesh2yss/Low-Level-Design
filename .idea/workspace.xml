@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="" />
+    <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/FoodDeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/OnlineFoodDeliveryServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/DeliveryAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/observer/OrderObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/DeliveryAssignmentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/NearestAvailableAgentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/RestaurantSearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/SearchByCityStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/SearchByMenuKeywordStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/online_food_delivery_service/strategy/SearchByProximityStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +65,7 @@
     "Application.FileSystemDemo.executor": "Run",
     "Application.MovieBookingSystemDemo.executor": "Run",
     "Application.OnlineAuctionSystemDemo.executor": "Run",
+    "Application.OnlineFoodDeliveryServiceDemo.executor": "Run",
     "Application.OnlineStockExchangeDemo.executor": "Run",
     "Application.RestaurantManagementSystemDemo.executor": "Run",
     "Application.VCSDemo.executor": "Run",
@@ -59,7 +81,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VCSDemo">
+  <component name="RunManager" selected="Application.OnlineFoodDeliveryServiceDemo">
     <configuration name="FileSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in_memory_file_system.FileSystemDemo" />
       <module name="LowLevelDesign" />
@@ -99,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlineStockExchangeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="online_stock_exchange.OnlineStockExchangeDemo" />
+    <configuration name="OnlineFoodDeliveryServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="online_food_delivery_service.OnlineFoodDeliveryServiceDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="online_stock_exchange.*" />
+          <option name="PATTERN" value="online_food_delivery_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnlineFoodDeliveryServiceDemo" />
         <item itemvalue="Application.VCSDemo" />
         <item itemvalue="Application.FileSystemDemo" />
         <item itemvalue="Application.OnlineAuctionSystemDemo" />
         <item itemvalue="Application.MovieBookingSystemDemo" />
-        <item itemvalue="Application.OnlineStockExchangeDemo" />
       </list>
     </recent_temporary>
   </component>
