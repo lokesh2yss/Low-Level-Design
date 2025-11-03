@@ -1,0 +1,28 @@
+package ride_hailing_service.state;
+
+import ride_hailing_service.entities.Driver;
+import ride_hailing_service.entities.Trip;
+import ride_hailing_service.enums.TripStatus;
+
+public class AssignedState implements TripState{
+    @Override
+    public void request(Trip trip) {
+        System.out.println("Trip has already been requested and assigned.");
+    }
+
+    @Override
+    public void assign(Trip trip, Driver driver) {
+        System.out.println("Trip is already assigned");
+    }
+
+    @Override
+    public void start(Trip trip) {
+        trip.setStatus(TripStatus.IN_PROGRESS);
+        trip.setState(new InProgressState());
+    }
+
+    @Override
+    public void end(Trip trip) {
+        System.out.println("Cannot end a trip that has not started.");
+    }
+}
