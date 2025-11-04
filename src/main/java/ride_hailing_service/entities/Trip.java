@@ -1,6 +1,5 @@
 package ride_hailing_service.entities;
 
-import ride_hailing_service.enums.DriverStatus;
 import ride_hailing_service.enums.TripStatus;
 import ride_hailing_service.observer.TripObserver;
 import ride_hailing_service.state.RequestedState;

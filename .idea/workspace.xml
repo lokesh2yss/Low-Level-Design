@@ -5,29 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="765dd23b-b873-40e5-a768-3d6522e60d2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/RideHailingServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/RideSharingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Rider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Trip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/enums/DriverStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/enums/RideType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/enums/TripStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/observer/TripObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/state/AssignedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/state/CompletedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/state/InProgressState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/state/RequestedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/state/TripState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/strategy/DriverMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/strategy/FlatRatePricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/strategy/NearestDriverMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/strategy/PricingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/strategy/VehicleBasedPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/TaskSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/TaskSchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/entities/DataBackupTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/entities/PrintMessageTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/entities/ScheduledTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/entities/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/observer/LoggingObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/observer/TaskExecutionObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/strategy/OneTimeSchedulingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/strategy/RecurringSchedulingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task_scheduler/strategy/SchedulingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ride_hailing_service/entities/Trip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,49 +51,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CoffeeVendingMachineDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElevatorSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieBookingSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OnlineAuctionSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OnlineFoodDeliveryServiceDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OnlineStockExchangeDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RestaurantManagementSystemDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VCSDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CoffeeVendingMachineDemo.executor": "Run",
+    "Application.ElevatorSystemDemo.executor": "Run",
+    "Application.FileSystemDemo.executor": "Run",
+    "Application.MovieBookingSystemDemo.executor": "Run",
+    "Application.OnlineAuctionSystemDemo.executor": "Run",
+    "Application.OnlineFoodDeliveryServiceDemo.executor": "Run",
+    "Application.OnlineStockExchangeDemo.executor": "Run",
+    "Application.RestaurantManagementSystemDemo.executor": "Run",
+    "Application.RideHailingServiceDemo.executor": "Run",
+    "Application.TaskSchedulerDemo.executor": "Run",
+    "Application.VCSDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "22",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.RideHailingServiceDemo">
+}]]></component>
+  <component name="RunManager" selected="Application.TaskSchedulerDemo">
     <configuration name="FileSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in_memory_file_system.FileSystemDemo" />
       <module name="LowLevelDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="in_memory_file_system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OnlineAuctionSystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="online_auction_system.OnlineAuctionSystemDemo" />
-      <module name="LowLevelDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="online_auction_system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskSchedulerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_scheduler.TaskSchedulerDemo" />
+      <module name="LowLevelDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VCSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="version_control_system.VCSDemo" />
       <module name="LowLevelDesign" />
@@ -152,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskSchedulerDemo" />
         <item itemvalue="Application.RideHailingServiceDemo" />
         <item itemvalue="Application.OnlineFoodDeliveryServiceDemo" />
         <item itemvalue="Application.VCSDemo" />
         <item itemvalue="Application.FileSystemDemo" />
-        <item itemvalue="Application.OnlineAuctionSystemDemo" />
       </list>
     </recent_temporary>
   </component>
