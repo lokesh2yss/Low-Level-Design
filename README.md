@@ -60,7 +60,6 @@ Concepts covered:
 
 # UML Class Diagram – Parking Lot
 
-```mermaid
 classDiagram
 
 class ParkingLot {
